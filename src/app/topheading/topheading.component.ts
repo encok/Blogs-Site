@@ -12,12 +12,10 @@ export class TopheadingComponent implements OnInit {
 
   constructor(private _services:NewsapiservicesService) {}
    
-  // displaydata
-  blogs : any;
+  
 
   ngOnInit(): void {
-    this._services.topHeading().subscribe((data)=>
-      this.blogs = data);
+
     }
   }
 

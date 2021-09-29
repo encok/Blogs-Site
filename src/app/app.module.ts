@@ -12,13 +12,15 @@ import { TechblogsComponent } from './techblogs/techblogs.component';
 // for HttpClient import:
 import { LoadingBarHttpClientModule } from '@ngx-loading-bar/http-client';
 import { AboutComponent } from './about/about.component';
+import { BlogsComponent } from './blogs/blogs.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     TopheadingComponent,
     TechblogsComponent,
-    AboutComponent
+    AboutComponent,
+    BlogsComponent
   ],
   imports: [
     BrowserModule,
