@@ -12,12 +12,12 @@
     <title>Blogs Space</title>
   </head>
   <body>
-<div class="card text-center m-5" style="width: 38rem;" *ngFor="let blog of blogs">
+<div class="card text-center m-5 d-flex" style="width: 38rem;" *ngFor="let blog of blogs">
     <div class="card-header">
-      Chekout Some Blogs
+        <p class="card-text">{{blog.language}}</p>
     </div>
     <div class="card-body"  >
-        <p class="card-text">{{blog.language}}</p>
+        
        
       <p class="card-text">{{blog.description}}</p>
       <p class="card-text">{{blog.author}}</p>
