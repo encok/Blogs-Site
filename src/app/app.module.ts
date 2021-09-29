@@ -11,12 +11,14 @@ import { NewsapiservicesService } from './service/newsapiservices.service';
 import { TechblogsComponent } from './techblogs/techblogs.component';
 // for HttpClient import:
 import { LoadingBarHttpClientModule } from '@ngx-loading-bar/http-client';
+import { AboutComponent } from './about/about.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     TopheadingComponent,
-    TechblogsComponent
+    TechblogsComponent,
+    AboutComponent
   ],
   imports: [
     BrowserModule,

@@ -12,15 +12,16 @@
     <title>Blogs Space</title>
   </head>
   <body>
-<div class="card text-center m-5" style="width: 18rem;" *ngFor="let blog of blogs">
+<div class="card text-center m-5" style="width: 38rem;" *ngFor="let blog of blogs">
     <div class="card-header">
       Chekout Some Blogs
     </div>
     <div class="card-body"  >
-      <h5 class="card-title">{{blog.id}}</h5>
-      <p class="card-text">{{blog.author}}</p>
-      <p class="card-text">{{blog.language}}</p>
+        <p class="card-text">{{blog.language}}</p>
+       
       <p class="card-text">{{blog.description}}</p>
+      <p class="card-text">{{blog.author}}</p>
+      <h5 class="card-title">{{blog.title}}</h5>
       <a href="#" class="btn btn-primary">More blogs</a>
     </div>
     <div class="card-footer text-muted">
