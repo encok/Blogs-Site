@@ -13,6 +13,8 @@ import { TechblogsComponent } from './techblogs/techblogs.component';
 import { LoadingBarHttpClientModule } from '@ngx-loading-bar/http-client';
 import { AboutComponent } from './about/about.component';
 import { BlogsComponent } from './blogs/blogs.component';
+import { LoginComponent } from './login/login.component';
+import { SignupComponent } from './signup/signup.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +22,9 @@ import { BlogsComponent } from './blogs/blogs.component';
     TopheadingComponent,
     TechblogsComponent,
     AboutComponent,
-    BlogsComponent
+    BlogsComponent,
+    LoginComponent,
+    SignupComponent
   ],
   imports: [
     BrowserModule,
