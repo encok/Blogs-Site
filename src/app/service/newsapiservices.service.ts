@@ -9,7 +9,7 @@ export class NewsapiservicesService {
 
   constructor( private _http:HttpClient) { }
  // Blogs api Url
- blogsApiUrl = "https://newsapi.org/v2/top-headlines?country=in&apiKey=b7735b33b2ef4eff9102cf046e75bb7f"
+ blogsApiUrl = "http://127.0.0.1:5000/blogs"
 
  //tech blogs api url
 

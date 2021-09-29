@@ -13,13 +13,12 @@ export class TopheadingComponent implements OnInit {
   constructor(private _services:NewsapiservicesService) {}
    
   // displaydata
-  topheadingDisplay:any = [];
+  blogs : any;
 
   ngOnInit(): void {
-    this._services.topHeading().subscribe((result)=>{
-      console.log(result);
-      this.topheadingDisplay = result.articles;
-    })
+    this._services.topHeading().subscribe((data)=>
+      this.blogs = data);
+    }
   }
 
-}
+
