@@ -1,27 +1,50 @@
-# Blogs
+# Project Title
+Blog Api App
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.2.0.
 
-## Development server
+# Author
+  **[Enock Kipronoh](https://github.com/encok)**
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
-## Code scaffolding
+## Link to Live Site 
+https://github.com/encok/Blogs-Site
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
 
-## Build
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+## Description
+  This is an application that consumes api build using python-flask. The api is hosted on locally and can be accessed using this app. Users are able to read the posted blogs from the database.
 
-## Running unit tests
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+## Screenshots
+<img src="app/static/images/1.png">
+<img src="app/static/images/2.png">
+<img src="app/static/images/3.png">
+<img src="app/static/images/4.png">
 
-## Running end-to-end tests
+## Installation Requirements
+  Clone this repository and navigate to the folder.
+  Run the following commands to allow functionality of the app:-
+  * npm install
+  * ng serve
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+ 
 
-## Further help
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+
+## Technologies Used
+  * sqlite
+  * HTML5, CSS and Bootstrap, Angular
+  * Angular
+  * Postgressql
+  
+
+## Known Bugs
+No known bugs so far
+
+## Support Details
+Contact me for further help<br/> 
+email: enckkipronoh@gmail.com<br/>
+Phone: 0717854859
+## License
+This is the link to the MIT license used<br/><br/>
+https://github.com/encok/1_minute_pitch/blob/master/LICENSE
