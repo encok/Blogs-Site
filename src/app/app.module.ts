@@ -6,6 +6,7 @@ import { AppComponent } from './app.component';
 import { TopheadingComponent } from './topheading/topheading.component';
 
 import {HttpClientModule} from '@angular/common/http';
+import { FormsModule } from '@angular/forms';
 
 import { NewsapiservicesService } from './service/newsapiservices.service';
 import { TechblogsComponent } from './techblogs/techblogs.component';
@@ -32,7 +33,8 @@ import { PostBlogComponent } from './post-blog/post-blog.component';
     BrowserModule,
     AppRoutingModule,
     HttpClientModule,
-    LoadingBarHttpClientModule
+    LoadingBarHttpClientModule,
+    FormsModule
 
   ],
   providers: [NewsapiservicesService],
