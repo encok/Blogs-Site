@@ -1,8 +1,40 @@
 body{
-    background-image: url("/assets/images/project5.png");
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 580px;
-    opacity: 0.9;
+  max-width: 900px;
+  margin: 0 auto;
+  font-family: "Roboto", sans-serif;
   
   }
+  .card{
+    margin-top: 200px;
+  }
+
+.our-team-heading {
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 48px;
+  padding-top: 64px;
+}
+
+.our-team {
+  display: flex;
+  padding: 30px;
+}
+
+.our-team img {
+  width: 100%;
+}
+
+.our-team .team-member {
+  margin: 0 4px;
+  position: relative;
+}
+
+.our-team .designation {
+  position: absolute;
+  bottom: 30px;
+  background: #fff;
+  padding: 12px 20px;
+  border-radius: 0 20px 20px 0;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+  font-size: 14px;
+}
