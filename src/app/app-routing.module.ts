@@ -6,13 +6,15 @@ import { AboutComponent } from './about/about.component';
 import { BlogsComponent } from './blogs/blogs.component';
 import { LoginComponent } from './login/login.component';
 import { SignupComponent } from './signup/signup.component';
+import { PostBlogComponent } from './post-blog/post-blog.component';
+import { from } from 'rxjs';
 
 const routes: Routes = [
 //  {path:'', redirectTo:'login', pathMatch:'full'},
 //  {path:'login', component:LoginComponent},//login
 //  {path:'signup', component:SignupComponent}, //signup 
  {path:'', component:TopheadingComponent}, //home
-//  {path:'tech', component:TechblogsComponent}, //tech
+ {path:'post', component:PostBlogComponent}, //post
  {path:'blogs', component:BlogsComponent}, //blogs
  {path:'about', component:AboutComponent}, //about
  

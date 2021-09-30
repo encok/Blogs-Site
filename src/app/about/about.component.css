@@ -1,0 +1,42 @@
+body{
+    background-image: url("/assets/images/project5.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 580px;
+    opacity: 0.9;
+  
+  }
+  .row{
+    display: flex;
+    flex-direction: column;
+  }
+  .row img{
+    width: 100%;
+    position: relative;
+  }
+  .col-md-6{
+    margin-top: 50px;
+    margin-left: 30px;
+    color: #ffff;
+  }
+  .col-md-6 h2{
+    margin: 20px;
+  }
+  .col-md-6 h4{
+    margin: 20px;
+  }
+  .col-md-6 button{
+    margin: 20px;
+  }
+  .col-md-6 button:hover{
+    background-color: brown;
+    color: #ffffff;
+  }
+  .para{
+    font-size: 24px;
+    margin-left: 10px;
+    color: #fff;
+  }
+  .us{
+      color: orange;
+  }
